@@ -183,7 +183,8 @@ h1 {
 }
 
 /*HOME*/
-.home .container {
+.home .container,
+.socials .container {
   text-align: center;
 }
 .home p.position {
@@ -194,22 +195,26 @@ h1 {
   opacity: 0.6;
   margin-bottom: 30px;
 }
-.home .socials {
+.home .socials,
+.contact .socials {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.home .socials img {
+.home .socials img,
+.contact .socials img {
   margin: 0 10px;
   width: 32px;
 }
-.home .socials a {
+.home .socials a,
+.contact .socials a {
   position: relative;
   display: inline-flex;
   width: 52px;
   height: 52px;
 }
-.home .socials span {
+.home .socials span,
+.contact .socials span {
   position: absolute;
   background: white;
   border-radius: 5px;
@@ -221,8 +226,10 @@ h1 {
   opacity: 0;
   transition: all 0.3s ease;
   padding: 2px 5px;
+  text-align: center;
 }
-.home .socials span::before {
+.home .socials span::before,
+.contact .socials span::before {
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
@@ -233,7 +240,8 @@ h1 {
   bottom: -5px;
   left: calc(50% - 5px);
 }
-.home .socials a:hover span {
+.home .socials a:hover span,
+.contact .socials a:hover span {
   opacity: 1;
   top: -20px;
 }
@@ -434,9 +442,6 @@ h1 {
 
 
 /*CONTACT*/
-.contact .container {
-  text-align: left;
-}
 .contact h1 {
   margin-bottom: 20px;
   text-align: center;
@@ -531,10 +536,6 @@ h1 {
     margin-top: 40px;
     font-size: 30pt;
     line-height: 30pt;
-    text-align: left;
-  }
-  .contact p {
-    text-align: left;
   }
   .contact .input-container {
     margin-bottom: 20px;
