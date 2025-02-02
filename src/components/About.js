@@ -30,21 +30,28 @@ class About extends Component {
                     <div className="me-bg" style={{backgroundImage: `url(${img})`}} />
                     <div className="me">
                         <h3>Noa Lea</h3>
-                        <p>Apart from the 9 to 5, I'm constantly working on my own side projects to improve my quality of code.</p>
+                        <p>Apart from the 9 to 5, I'm constantly working on my own side projects to learn new skills.</p>
+                        <p>Most recently, I've built a real-time chat feature (comments & replies) in React Native using WebSockets.</p>
                         <h3>SKILLS</h3>
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Adobe Creative Cloud</li>
-                            <li>InVision Studio</li>
+                            <li>JavaScript / Typescript</li>
+                            <li>React</li>
+                            <li>React Native</li>
+                            <li>Next.js</li>
+                            <li>Node.js</li>
+                            <li>SEO & Performance Optimization</li>
                         </ul>
                         <ul>
-                            <li>React.js</li>
-                            <li>Git</li>
-                            <li>React Native</li>
-                            <li>Redux</li>
+                            <li>Git & CI/CD automations</li>
+                            <li>Golang</li>
+                            <li>Jest / Cypress testing</li>
+                            <li>Mobx</li>
                             <li>MySQL</li>
+                            <li>Postgres</li>
+                            <li>PHP</li>
+                            <li>Ruby on rails</li>
                         </ul>
                         <hr/>
                         <NextButton to={'/contact'} label={'Contact'} />

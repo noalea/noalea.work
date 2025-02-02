@@ -25,8 +25,8 @@ class Home extends Component {
                 <div className="container">
                     <h1>Noa Lea</h1>
                     <div className="divider" />
-                    <p className="position">Development + Design for All Devices</p>
-                    <p className="description">I like to build companies out of the products I create.</p>
+                    <p className="position">Senior Software Engineer - Frontend focused</p>
+                    <p className="description">Let's build together.</p>
                     <Socials />
                     <NextButton to={'/about'} label={'About'} />
                 </div>
