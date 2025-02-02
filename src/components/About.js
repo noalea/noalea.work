@@ -21,18 +21,14 @@ class About extends Component {
 
 
     render() {
-
-        let img = site + '/assets/sky.png';
-
         return (
             <div className="about">
                 <div className="container">
-                    <div className="me-bg" style={{backgroundImage: `url(${img})`}} />
                     <div className="me">
                         <h3>Noa Lea</h3>
                         <p>Apart from the 9 to 5, I'm constantly working on my own side projects to learn new skills.</p>
                         <p>Most recently, I've built a real-time chat feature (comments & replies) in React Native using WebSockets.</p>
-                        <h3>SKILLS</h3>
+                        <h3 className="skills">SKILLS</h3>
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>

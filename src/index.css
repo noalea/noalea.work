@@ -256,17 +256,7 @@ h1 {
 .about .container {
   display: flex;
   justify-content: space-between;
-}
-.about .me-bg,
-.about .me {
-  width: 46%;
   text-align: left;
-}
-.about .me-bg {
-  border-radius: 20px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center -80px;
 }
 .about h3 {
   color: rgba(255, 255, 255, 0.6);
@@ -274,10 +264,16 @@ h1 {
   font-weight: 400;
   margin: 0;
 }
+.about h3:first-of-type {
+  margin-bottom: 40px;
+}
 .about p {
-  margin: 30px 0 50px 0;
+  margin: 10px 0;
   line-height: 20pt;
   font-weight: 600;
+}
+.about .skills {
+  margin-top: 50px;
 }
 .about ul {
   padding: 0;
@@ -287,25 +283,15 @@ h1 {
   float: left;
 }
 .about ul li {
-  color: rgba(255, 255, 255, 0.6);
   margin-top: 20px;
   list-style: none;
 }
 @media (max-width: 800px) {
-  .about .me-bg {
-    display: none;
-  }
-  .about .me {
-    width: 100%;
-  }
   .about p {
     margin: 15px 0 30px 0;
   }
   .about ul li {
     margin-top: 10px;
-  }
-  .about .me ul:nth-of-type(2) {
-    margin-right: 0;
   }
 }
 
